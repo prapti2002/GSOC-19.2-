@@ -15,9 +15,11 @@ Github : [https://github.com/prapti2002](https://github.com/prapti2002)
 
 **The Project**
 **What is the project about?**
+
 This project aims to enhance the Neurobagel data ecosystem by creating a chatbot interface using large language models (LLMs). The chatbot will parse natural language queries, initiate API calls, interpret results, and convey information effectively, making the search process more accessible and user-friendly.
 
 **Why is it important?**
+
 This project, centered on developing a natural language interface for querying federated research data within the Neurobagel ecosystem, holds profound significance in several key aspects.
 
 Firstly, by introducing a natural language interface, it aims to simplify the process of querying research data. This approach eliminates the need for users to have prior knowledge of complex query languages or data structures, thereby lowering the barrier to entry for accessing and utilizing research data. Such simplification can democratize access to valuable research resources, making them more readily available to a broader audience of researchers and data users.
