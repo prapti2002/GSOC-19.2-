@@ -35,9 +35,11 @@ In conclusion, the development of a natural language interface for querying fede
 **Project in detail**
 
 **Specifications**
+
 In this section I will detail my vision for how I will be working on this project. I expect this to be considerably enhanced under the guidance of my mentor.
 
 **How will you handle the Project?**
+
 My approach would be first to understand the basics of langchain and ollama and understand how they make use of LLMs. From my understanding as of now from the readings, I am aware of LLMs and have ideas about basic RAG applications using OpenAI API’s and langchain.
 
 In a nutshell the architecture will be the LLM receives the Natural Language query, which it parses for getting relevant fields and generates a query which runs on the database and we get the desired data back. The results will be given to LLM to generate and convey the desired results back to the user.
@@ -45,11 +47,13 @@ In a nutshell the architecture will be the LLM receives the Natural Language que
   
 
 **Detailed Description**
+
 I plan to build this project in three stages.
 
   
 
 **Stage 1**
+
 I plan to go through the ways we can achieve the parsing using LLM and query generation to communicate with databases. I see some possible approaches are prompt, fine tuning but will be going through them in depth and testing them on the data, would give a better understanding and to make necessary changes to adapt it to the use case.
 
 ![](https://lh7-us.googleusercontent.com/tmaAIFo4jk-RnZGJCyDjDjr8bOc4nlHlgbhmKb7-FUnoHUqCel39D6Tm6kcAKCimf2vDRtqElYl21UMk2yA2XXeD8BkWt55NyJ1pYoVho2zbf8JYt3QFvQXstQWHfyo6QIR-XZyMMkgJN3Pn9Js2UuM)
@@ -57,6 +61,7 @@ I plan to go through the ways we can achieve the parsing using LLM and query gen
   
 
 **Stage 2**
+
 After achieving the parsing and the query generation, I would integrate these results and this will be able to fetch the desired data. After fetching this data, I would try to incorporate it in the LLM(same or different) to generate the desired results in a concise and clear way for the user to understand.
 
 ![](https://lh7-us.googleusercontent.com/WfkevlcsliVQ6QGbSDOiZa5V7rKSie3FmsIfyDL0_ce-Ld5M7fPiEkkuNPJh1109o-4ZHFsFUyVfTm4JTD5efSKiL7fqcpxgg3kZjS5ivsLj_7J6mxWma4j3WRUcdtPpMBa49FnrycQ1AIOgX4pTfW4)
@@ -65,6 +70,7 @@ After achieving the parsing and the query generation, I would integrate these re
   
 
 **Stage 3**
+
 After I have built this pipeline, I would move on to ways to improve it with some ideas from mentors and research.
 
   **Minimal Set of Deliverables:**
@@ -149,15 +155,19 @@ After I have built this pipeline, I would move on to ways to improve it with som
 -   Prepare user documentation and guidelines for utilizing the chatbot interface.
     
 **Your plan for communication with mentors:**
+
 I propose to maintain regular communication with my mentor through weekly email updates and scheduled GMeets. These channels will facilitate ongoing discussions about project progress, addressing any issues promptly. Additionally, the frequency of GMeet calls may increase as needed to ensure alignment and timely resolution of challenges.
 
 **You can apply for up to three projects. Is this the only project that you will apply for?**  
+
 No, this is Not the only project I am applying for.
 
 **Working time - how many hours per week do you plan to work, and how will you divide your time?**  
+
 40 hours / week rounding to about 6 to 8 hours on a daily basis.
 
 **Do you have any other plans for the work period (school work, another job, planned vacation)? If so, how do you plan to combine them with your work?**  
+
 My 12-week summer vacation begins from 10th May. I don’t have any major commitments in the GSoC Period, thus, this project will be my top priority. My next semester starts around the last week of August. The academic pressure isn’t heavy in this time-frame, Thus, I would be able to devote my time in the last few weeks of the coding period as well.
 
 **References**
